@@ -1,17 +1,30 @@
 .App {
   text-align: center;
+  color: white;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
+
+
 
 .App-logo {
-  height: 40vmin;
+  max-height: 40vmin;
+  /* width: 50%; */
   pointer-events: none;
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } */
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +49,51 @@
     transform: rotate(360deg);
   }
 }
+
+.Name{
+  color: green;
+  background-color: rgb(238, 230, 230);
+  border:5px dashed red;
+ 
+}
+.MuiContainer-root 
+{
+  background-color:rgb(39, 40, 41);
+}
+#video{
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  max-height: max-content;
+}
+
+.fromlayout{
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.fromlayoutResume{
+  
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* ul{
+  display: flex;
+  flex-direction: row;
+}
+li{
+  list-style-type: none;
+  padding: 10px;
+  width: 80px;
+} */
+
