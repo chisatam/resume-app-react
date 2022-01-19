@@ -23,11 +23,11 @@ export default class About extends Component {
     render() {
         return (
             <div className="fromlayoutResume">
-                 <video autoPlay loop muted id="video">
+                 {/* <video autoPlay loop muted id="video">
                 <source src={Backg} type="video/mp4" />
-            </video>
+            </video> */}
                  <ReactLoading type={"balls"} color={"#ffffff"} height={'20%'} width={'20%'} />
-                <h1>หน้า contactus</h1>
+                <h1>หน้านี้พี่กำลังทำอยู่น้องไลลา</h1>
             </div>
         )
     }

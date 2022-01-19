@@ -9,7 +9,8 @@ function Resume() {
                 <source src={Backg} type="video/mp4" />
             </video>
             <h1>Resume</h1>
-            <img src={Resumepic}  alt="logo"  style={{width:"500px", height:"500px"}}/>
+            <img src={Resumepic}  alt="logo"  style={{width:"300px", height:"300px"}}/>
+            {/* <img src={Resumepic}  alt="logo"  style={{width:"500px", height:"500px"}}/> */}
             {/* <ReactLoading type={"balls"} color={"#ffffff"} height={'20%'} width={'20%'} /> */}
         </div>
     );

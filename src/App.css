@@ -64,7 +64,9 @@
   position: fixed;
   z-index: -1;
   width: 100%;
-  max-height: max-content;
+  background-size: cover;
+  
+  
 }
 
 .fromlayout{

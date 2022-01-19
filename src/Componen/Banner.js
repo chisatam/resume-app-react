@@ -11,6 +11,8 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import image4 from "../Image/sootpng.png";
 import TypeWriterEffect from "react-typewriter-effect";
+import Appbar from "../Routetest/Appbar"
+import Logo from "../logo1.png"
 
 function Banner() {
     const Item = styled(Paper)(({ theme }) => ({
@@ -21,9 +23,10 @@ function Banner() {
     }));
     return (
         <div className="fromlayout">
-            <video autoPlay loop muted id="video">
+              {/* <Appbar logo = {Logo} test ="Suc"/> */}
+            {/* <video autoPlay loop muted id="video">
                 <source src={Backg} type="video/mp4" />
-            </video>
+            </video> */}
 
             {/* <Grid container spacing={2}  >
                 <Grid item xs={4} >
