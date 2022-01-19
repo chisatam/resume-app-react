@@ -9,9 +9,6 @@ import Grid from "@mui/material/Grid";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
-import image1 from "../Image/firstLogo.jpg";
-import image2 from "../Image/University.jpg";
-import image3 from "../Image/soot.jpg";
 import image4 from "../Image/sootpng.png";
 import TypeWriterEffect from "react-typewriter-effect";
 
